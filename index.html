@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"crossorigin="anonymous"/>
+    <title>Document</title>
+</head>
+<body>
+ <!-- Navbar Section -->
+ <header id="header">
+ <nav class="nav-bar" id="nav-bar">
+  <div class="navbar__container">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFNoO_JUrPP0ficB_Cu9-_kMTYWojZtR8JGiXUVnd2_skqOyJmI9eCUJCDjDpudbqb0iA&usqp=CAU" href="#home" id="header-img"></img>
+     <div class="navbar__toggle" id="mobile-menu">
+      <span class="bar"></span> <span class="bar"></span>
+      <span class="bar"></span>
+   </div>
+    <ul class="navbar__menu">
+      <li class="navbar__item">
+        <a href="#home" class="nav-link" id="home-page">Home</a>
+      </li>
+      <li class="navbar__item">
+        <a href="#services" class="nav-link" id="services-page">Services</a>
+      </li>
+      <li class="navbar__item">
+        <a href="#about" class="nav-link" id="about-page">How It Works</a>
+      </li>
+    </ul>
+   </div>
+  </nav>
+ </header>
+    <!-- Form Section -->
+    <div class="form" id="home">
+      <div class="form__container">
+        <img src="https://www.robustel.com/wp-content/uploads/2018/12/shutterstock_366966188.jpg" id="background-pic" width="1255px"  alt="">
+        <div class="form-content"> 
+          <form action="https://www.freecodecamp.com/email-submit" id="form"><br>
+             <h1 class="form-title">BUDGET REQUEST</h1><br>
+             <div class="email-box">  
+              <input type="text" class="form-boxes" name="email" placeholder=" Name"></div>
+              <div class="email-box"><br>  
+              <input type="email" id="email" class="form-boxes" name="email" placeholder=" Enter Your Email"></div>
+              <div class="email-box"><br>  
+              <input type="text" class="form-boxes" name="email" placeholder=" Phone"></div>
+             <div class="email-box">  
+              <textarea rows="4" cols="24" class="form-boxes" id="comment"> Comments</textarea>
+            </div>
+             <input type="submit" id="submit" class="btn btn-light" value="SEND">
+          </form>
+         </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services" id="services">
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h1 class="fas fa-desktop"></h1>
+          <h2>HD VIDEO QUALITY</h2>
+          <p>Security cameras with a 1080p HD resolution.</p>
+          <div class="services__btn"><button>More Info</button></div>
+        </div>
+        <div class="services__card">
+          <h1 class="fas fa-binoculars"></h1>
+          <h2>FIELD OF VIEW</h2>
+          <p>Cameras with a field of view of 110 degrees.</p>
+          <div class="services__btn"><button>More Info</button></div>
+        </div>
+        <div class="services__card">
+          <h1 class="fas fa-laptop-house"></h1>
+          <h2>SMART HOME</h1>
+          <p>Works using Google Assistant voice commands.</p>
+          <div class="services__btn"><button>More Info</button></div>
+        </div>
+        <div class="services__card">
+          <h1 class="fas fa-mobile-alt"></h1>
+          <h2>MOBILE CONTROL</h2>
+          <p>Full control of your camera using your smartphone.</p>
+          <div class="services__btn"><button>More Info</button></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video Section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>improve your life security</h1>
+          <h2>EAGLE GUARD INC.</h2>
+          <p>Leader on security cameras</p>
+          <button class="main__btn"><a href="#">Sign Up</a></button>
+        </div>
+        <div class="main__img--container">
+          <div class="main__img--card" id="card-2">
+            <iframe id="video" height="450px" src="https://www.youtube.com/watch?v=sDF1fHQO42M" frameborder="0" allowfullscreen></iframe> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFNoO_JUrPP0ficB_Cu9-_kMTYWojZtR8JGiXUVnd2_skqOyJmI9eCUJCDjDpudbqb0iA&usqp=CAU" id="footer__logo" height="120px"></img>
+          </div>
+          <p class="website__rights">© EAGLE GUARD INC 2020. All rights reserved</p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
+
