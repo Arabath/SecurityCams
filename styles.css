@@ -212,7 +212,7 @@
   
   /* Hero Section */
   .form {
-    background: #ffffffec;
+    background: #e7e5e5ec;
   }
   
   .form__container {
@@ -261,7 +261,7 @@
   
   /* Video Section */
   .main {
-    background-color: #252525ec;
+    background-color: #e7e5e5ec;
     padding: 1rem 0;
   }
   
@@ -435,7 +435,7 @@
   
   /* Services Section */
   .services {
-    background: #252525ec;
+    background: #e7e5e5ec;
     display: flex;
     flex-direction: column;
     justify-content: center;
