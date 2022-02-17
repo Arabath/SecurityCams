@@ -6,6 +6,11 @@
     scroll-behavior: smooth;
   }
 
+.header {
+  background: #e7e5e5ec;
+}
+
+
 .nav-bar {
     background: #ffffff;
     height: 80px;
@@ -65,8 +70,8 @@
     transition: all 0.3s ease;
   }
   
-  /*Form Section*/
-  /* .form-content {
+  /* Form Section
+  .form-content {
     background-color: rgba(246, 37, 37, 0.664);
     border-radius: 10px;
     text-align: center;
@@ -213,6 +218,7 @@
   /* Hero Section */
   .form {
     background: #e7e5e5ec;
+    margin-top: 90px;
   }
   
   .form__container {
@@ -444,6 +450,13 @@
     padding: 2rem 0;
   }
   
+  .card-img {
+    padding: 5px;
+    height: 200px ;
+    width: 300px ;
+    border-radius:10px ;
+  }
+
   .services__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -458,8 +471,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #fff;
-    background-color:#f625255e;
+    color: rgb(0, 0, 0);
+    background-color:#ffffffe1;
     transition: 0.3s ease-in;
   }
   
