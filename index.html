@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Styles/styles.css" />
+    <link rel="stylesheet" href="./Styles/carousel.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"crossorigin="anonymous"/>
     <title>Document</title>
 </head>
@@ -40,11 +41,36 @@
  </header>
 
     <!-- Carrousell Section -->
-    <div class="form" id="home">
-      <div class="form__container">
-        <img src="https://www.robustel.com/wp-content/uploads/2018/12/shutterstock_366966188.jpg" id="background-pic" width="1255px"  alt="">
+    <div class="carousel">
+      <button class="carousel__button carousel__button--left is-hidden">
+          <img src="./img/left-arrow.png"  alt="">
+      </button>
+
+      <div class="carousel__track-container">
+          <ul class="carousel__track">
+              <li class="carousel__slide current-slide">
+           <img class="carousel_images" src="https://www.robustel.com/wp-content/uploads/2018/12/shutterstock_366966188.jpg"  alt="">    
+              </li>
+              <li class="carousel__slide">
+           <img class="carousel_images" src="img/img2.jpg"  alt="">    
+              </li>
+              <li class="carousel__slide">
+           <img class="carousel_images" src="img/img3.jpg"  alt="">      
+              </li>
+          </ul>
       </div>
-    </div>
+      <button class="carousel__button carousel__button--right">
+          <img src="./img/right-arrow.png"  alt="">
+      </button>
+
+      <div class="carousel__nav">
+          <button class="carousel__indicator current-slide"></button>
+          <button class="carousel__indicator"></button>
+          <button class="carousel__indicator"></button>
+      </div>
+  </div>
+
+  <script src="./JS/carousel.js"></script>
 
     <!-- Services Section -->
     <div class="services" id="services">
